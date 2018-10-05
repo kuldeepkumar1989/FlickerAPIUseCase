@@ -1,0 +1,19 @@
+<div>
+        <div class="display-flex flex-direction-row padding10">
+                <div class="padding-left10 padding-top10"> 
+                        <input type="text" placeholder="Search.." name="search" ng-model="vm.searchImg">
+                </div>
+                <div class="padding-top10">
+                        <button ng-click="vm.searchMethod(vm.searchImg)">Search</button>
+                </div>
+                <div class="padding-left10 padding-top10">
+                        <button ng-click="vm.refresh()">Refresh</button>
+                </div>
+        </div>
+        <div class="display-flex padding-left17 justify-content-space-around">
+                <div ng-repeat="imgURL in vm.imageURLArray">
+                        <img class="imgSize" src={{imgURL}}/>
+                </div>
+        </div>
+</div>
+

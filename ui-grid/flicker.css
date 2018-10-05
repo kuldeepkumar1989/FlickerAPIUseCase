@@ -1,0 +1,32 @@
+
+.imgSize {
+    height: 100px;
+    width: 100px;
+}
+ .display-flex {
+    display: flex;
+ }
+
+ .flex-direction-row {
+    flex-direction: row;
+ }
+ 
+ .justify-content-space-around {
+    justify-content: space-around;
+ }
+
+.padding10 {
+    padding: 10px;
+}
+
+.padding-left10 {
+    padding-left: 10px;
+}
+
+.padding-top10 {
+    padding-top: 10px;
+}
+
+.padding-left17 {
+    padding-left: 17px;
+}
